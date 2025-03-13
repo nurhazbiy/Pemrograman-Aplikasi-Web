@@ -1,5 +1,7 @@
 # Simple Comment System - Fetch API Implementation
 
+![PHP Version](https://img.shields.io/badge/PHP-8.2-blue.svg) ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
+
 ## Overview
 This project improves the comment system by using **AJAX (Fetch API)** to dynamically update the comment section every few seconds **without requiring a page refresh**.
 

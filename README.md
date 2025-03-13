@@ -28,6 +28,12 @@ A **dashboard (`index.php` and `styles.php`)** is provided at the root level to 
 
 ## 🚀 Projects
 
+### 🟢 **00 - Dashboard Template (First Implementation)**
+📌 The first implementation of the **dashboard** to navigate between different projects.  
+✅ A simple **PHP dashboard** with **CSS styling**.  
+✅ Provides **links** to different iterations of the project.  
+🔗 [View Implementation](00-dashboard-template-first-implementation/)
+
 ### 🟢 **01 - Comment First Implementation**
 📌 A basic **comment system** using PHP.  
 ✅ Comments are stored in a text file.  

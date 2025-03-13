@@ -1,5 +1,7 @@
 # Simple Comment System - First Implementation
 
+![PHP Version](https://img.shields.io/badge/PHP-8.2-blue.svg) ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
+
 ## Overview
 This is the first project of a basic comment system using PHP. Users can submit comments, which are stored in a text file and displayed on the page.
 

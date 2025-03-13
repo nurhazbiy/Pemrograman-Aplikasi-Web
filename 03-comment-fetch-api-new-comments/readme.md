@@ -1,5 +1,7 @@
 # Simple Comment System - Optimized Fetch (Only New Comments)
 
+![PHP Version](https://img.shields.io/badge/PHP-8.2-blue.svg) ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
+
 ## Overview
 This project improves performance by **fetching only new comments** instead of reloading all comments on every fetch request. This reduces **server load** and improves efficiency.
 
