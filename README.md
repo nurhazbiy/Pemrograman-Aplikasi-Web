@@ -15,13 +15,16 @@ A **dashboard (`index.php` and `styles.php`)** is provided at the root level to 
 ## 📂 Project Structure
 ```
 /Pemrograman-Aplikasi-Web/
-│── index.php       # Current dashboard (evolving)
-│── styles.css          # CSS for dashboard styling
+│── index.php                             # Current dashboard (evolving)
+│── styles.css                            # CSS for dashboard styling
 │── 00-dashboard-template-first-implementation/  # First dashboard version
 │── 01-comment-first-implementation/      # Basic comment system
 │── 02-comment-fetch-api/                 # Fetch API-based implementation
-│── 03-comment-fetch-api-new-comments/     # Optimized Fetch API (Only New Comments)
-│── README.md           # This documentation
+│── 03-comment-fetch-api-new-comments/    # Optimized Fetch API (Only New Comments)
+│── 04-database/                          # Database setup with PDO
+│── 05-auth-tailwind/                     # User authentication with Tailwind CSS
+│── 06-pdf-upload/                        # PDF upload system with user-friendly interface
+│── README.md                             # This documentation
 ```
 
 ---
@@ -51,6 +54,29 @@ A **dashboard (`index.php` and `styles.php`)** is provided at the root level to 
 ✅ Uses **localStorage** to track the latest comment timestamp.  
 ✅ **Reduces server load** by avoiding unnecessary data retrieval.  
 🔗 [View Implementation](03-comment-fetch-api-new-comments/)
+
+### 🟢 **04 - Database Setup with PDO**
+📌 A **secure database connection setup** using PHP PDO.  
+✅ Environment-based configuration via `.env` file.  
+✅ Error handling for connection issues with optional debug mode.  
+✅ Includes **random student data generation** using **Faker**.  
+✅ Displays student data in a responsive table.  
+✅ Allows **deleting student records** with a single click.  
+🔗 [View Implementation](04-database/)
+
+### 🟢 **05 - User Authentication with Tailwind CSS**
+📌 A **user authentication system** with login and registration pages.  
+✅ Styled using **Tailwind CSS** for a modern look.  
+✅ Includes **error handling** for invalid credentials and duplicate usernames.  
+✅ Uses **PDO** for secure database interactions.  
+🔗 [View Implementation](05-auth-tailwind/)
+
+### 🟢 **06 - PDF Upload Project**
+📌 A **PDF upload system** with a user-friendly interface.  
+✅ Allows users to upload PDF files securely.  
+✅ Displays uploaded files in a grid layout styled like Google Drive.  
+✅ Includes user authentication to restrict access to certain features.  
+🔗 [View Implementation](06-pdf-upload/)
 
 ---
 
