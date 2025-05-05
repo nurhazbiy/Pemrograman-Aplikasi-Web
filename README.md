@@ -87,13 +87,13 @@ A **centralized dashboard (`index.php`)** is included in the root directory to a
 🔹 The **first version** of the dashboard is preserved in `00-dashboard-template-first-implementation/`.
 
 ### 🔹 How to Use:
-1. Run a local PHP server (or using XAMPP):
+1. Run a local PHP server (optional if you don't use XAMPP):
    ```sh
-   php -S localhost:8000
+   php -S localhost:8000 
    ```
 2. Open your browser and visit:
    ```sh
-   http://localhost:8000/dashboard.php
+   http://localhost:8000/ (or http://localhost/ if you use XAMPP)
    ```
 3. Click on any projects to explore different implementations.
 
