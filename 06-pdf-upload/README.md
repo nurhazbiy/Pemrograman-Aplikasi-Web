@@ -20,7 +20,6 @@ This project allows users to upload PDF files securely and view the uploaded fil
 │── index.php # Main page for uploading PDF files 
 │── upload.php # Handles file uploads 
 │── view_uploads.php # Displays uploaded files 
-│── logout.php # Handles user logout 
 │── uploads/ # Directory to store uploaded files 
 │── readme.md # Documentation for this project
 ```
