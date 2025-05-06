@@ -1,3 +1,15 @@
+<?php
+session_start();
+$isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
+
+// Restrict access to logged-in users
+if (!$isLoggedIn) {
+    $_SESSION['feedback'] = 'Error: You must be logged in to view uploaded files.';
+    header('Location: index.php');
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,17 +28,6 @@
 </head>
 
 <body class="bg-gray-100">
-    <?php
-    session_start();
-    $isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
-
-    // Restrict access to logged-in users
-    if (!$isLoggedIn) {
-        $_SESSION['feedback'] = 'Error: You must be logged in to view uploaded files.';
-        header('Location: index.php');
-        exit;
-    }
-    ?>
     <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
         <a href="/">
             <header class="bg-gray-800 text-white text-center">

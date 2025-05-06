@@ -1,5 +1,11 @@
+<?php
+session_start();
+$isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,17 +19,15 @@
     }
   </script>
 </head>
+
 <body class="bg-gray-100">
-  <?php
-  session_start();
-  $isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
-  ?>
   <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
     <a href="/">
-        <header class="bg-gray-800 text-white text-center">
-            <h1 class="text-2xl font-bold">Pemrograman Aplikasi Web</h1>
-        </header>
-    </a>    <nav class="flex items-center">
+      <header class="bg-gray-800 text-white text-center">
+        <h1 class="text-2xl font-bold">Pemrograman Aplikasi Web</h1>
+      </header>
+    </a>
+    <nav class="flex items-center">
       <a href="index.php" class="text-white hover:underline mx-2">Home</a>
       <?php if ($isLoggedIn): ?>
         <div class="relative">
@@ -86,4 +90,5 @@
     </div>
   </main>
 </body>
+
 </html>

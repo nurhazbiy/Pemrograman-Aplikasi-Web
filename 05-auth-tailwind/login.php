@@ -1,3 +1,8 @@
+<?php
+session_start();
+$isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,10 +21,6 @@
 </head>
 
 <body class="bg-gray-100">
-    <?php
-    session_start();
-    $isLoggedIn = isset($_SESSION['username']); // Check if the user is logged in
-    ?>
     <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
         <a href="/">
             <header class="bg-gray-800 text-white text-center">
