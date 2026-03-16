@@ -25,4 +25,4 @@ try {
     } else {
         die('Connection failed. Error 100001');
     }
-}
+} 

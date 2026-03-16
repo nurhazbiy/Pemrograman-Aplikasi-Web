@@ -18,7 +18,6 @@ This version includes user authentication features with login and registration f
 │── logout.php       # Handles user logout
 │── login_handler.php # Handles login form submissions
 │── register_handler.php # Handles registration form submissions
-│── styles.css       # CSS styling for dashboard and forms
 │── README.md        # Documentation for this version
 ```
 

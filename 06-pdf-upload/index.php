@@ -24,10 +24,8 @@ $currentUrl = urlencode($_SERVER['REQUEST_URI']);
 <body class="bg-gray-100">
 
     <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
-        <a href="/">
-            <header class="bg-gray-800 text-white text-center">
-                <h1 class="text-2xl font-bold">Pemrograman Aplikasi Web</h1>
-            </header>
+        <a href="/" class="text-white text-center">
+            <h1 class="text-2xl font-bold">Pemrograman Aplikasi Web</h1>
         </a>
         <nav class="flex items-center">
             <a href="index.php" class="text-white hover:underline mx-2">Home</a>

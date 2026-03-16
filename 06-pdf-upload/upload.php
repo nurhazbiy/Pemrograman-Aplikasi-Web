@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['pdf_file'])) {
         $_SESSION['feedback'] = 'Error: Failed to upload file.';
     }
 } else {
-    $_SESSION['feedback'] = 'Error: No file uploaded.';
+    $_SESSION['feedback'] = 'Error: Only allow POST Method.';
 }
 
 // Redirect back to the form
